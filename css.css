@@ -8,7 +8,7 @@
     max-width: 1240px;
     width: 100%;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 nav {
@@ -79,7 +79,9 @@ nav button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
 .hero_left{
     position: relative;
 }
@@ -139,6 +141,33 @@ nav button {
     letter-spacing: -0.639px;
     border: none;
 }
+
+@media only screen and (max-width: 1119px) {
+
+
+    .hero_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero_right h1 {
+        color: #272D4E; 
+        width: 500px;
+        text-align: right;
+        font-family: IRANSansX;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 115%;
+        /* 55.2px */
+    }
+    
+}
+
+
 
 .section_wrapper{
     display: flex;
